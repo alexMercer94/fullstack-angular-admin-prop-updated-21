@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ComponentsModule } from 'src/components/components.module';
 import { SharedModule } from 'src/shared/shared.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { Grafica1Component } from './grafica1/grafica1.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { DashboardComponent } from './Dashboard/dashboard/dashboard.component';
+import { Grafica1Component } from './Dashboard/grafica1/grafica1.component';
+import { ProgressComponent } from './Dashboard/progress/progress.component';
 import { PagesComponent } from './pages.component';
-import { ProgressComponent } from './progress/progress.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ProgressComponent } from './progress/progress.component';
     Grafica1Component,
     ProgressComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -28,6 +30,7 @@ import { ProgressComponent } from './progress/progress.component';
     Grafica1Component,
     ProgressComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
 })
 export class PagesModule {}
