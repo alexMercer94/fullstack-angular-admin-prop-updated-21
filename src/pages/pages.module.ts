@@ -9,6 +9,8 @@ import { DashboardComponent } from './Dashboard/dashboard/dashboard.component';
 import { Grafica1Component } from './Dashboard/grafica1/grafica1.component';
 import { ProgressComponent } from './Dashboard/progress/progress.component';
 import { PagesComponent } from './pages.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { PagesComponent } from './pages.component';
     ProgressComponent,
     PagesComponent,
     AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
   imports: [
     CommonModule,
@@ -31,6 +35,8 @@ import { PagesComponent } from './pages.component';
     ProgressComponent,
     PagesComponent,
     AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent,
   ],
 })
 export class PagesModule {}
